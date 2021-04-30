@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(https://picsum.photos/id/1015/6000/4000);
+  background-image: url(https://picsum.photos/id/1011/5472/3648);
+  background-attachment: fixed;
   background-size: cover;
   padding: 5% 10%;
   display: flex;
@@ -65,6 +66,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5%;
+  height: 50%;
   border-radius: 50%;
 }
