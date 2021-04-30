@@ -34,14 +34,21 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
   align-items: center;
-  align-self: center;
   height: 50vh;
   font-size: x-large;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  text-shadow: #555;
+}
 .name {
   color: white;
 }
@@ -52,4 +59,12 @@ body {
 
 .message {
   font-style: italic;
+}
+
+.pics img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+  border-radius: 50%;
 }
